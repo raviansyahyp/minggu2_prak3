@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index() {
-        return "Selamat Datang Di Web JTI POLINEMA."
+        return "Selamat Datang di Halaman Website Jurusan Teknologi Informasi Politeknik Negeri Malang."
         ;
     }
 }
