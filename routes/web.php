@@ -54,7 +54,7 @@ Route::get('/news/{id}', [NewsController::class,'news']);
 
 Route::prefix('sarana')->group(function () {
     Route::get('/perkantoran', function () {
-        return "Perkantoran";
+        return "Perkantoran dan Ruang Perkantoran";
     });
     Route::get('/laboratorium', function () {
         return "Laboratorium <br><br>
